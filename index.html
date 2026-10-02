@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>OkayEnglish — Студия английского языка в Тюмени | Обучение школьников</title>
+  <meta name="description" content="Студия английского языка OkayEnglish в Тюмени (ул. Николая Зелинского, 17). Занятия в мини-группах для школьников 1-9 классов. Без зубрёжки. Тел: +7 (922) 478-77-11.">
+  <link rel="canonical" href="https://okay-english.ru/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="OkayEnglish — Студия английского языка в Тюмени">
+  <meta property="og:description" content="Английский — это okay. Ваш ребёнок заговорит. Студия на Зелинского, 17. Мини-группы до 8 человек. Рейтинг 5.0 на 2GIS.">
+  <meta property="og:url" content="https://okay-english.ru/">
+  <meta property="og:image" content="images/hero_olga.jpg">
+
+  <!-- Favicon SVG: Stylized violet & neon magenta 'o' -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%235B0BB5'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23FF0AB8'/%3E%3C/svg%3E">
+
+  <!-- Instant Theme Loader (Zero FOUC flash) -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('okay_theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+
+  <!-- Google Fonts: Manrope (800), Inter (400, 500), JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            violet: {
+              brand: '#5B0BB5',
+              dark: '#3F0780',
+              deep: '#280453',
+              light: '#8C38FA',
+              surface: 'var(--violet-surface, rgba(91, 11, 181, 0.07))',
+            },
+            magenta: {
+              brand: '#E6007A',
+              neon: '#FF0AB8',
+              surface: 'rgba(230, 0, 122, 0.08)',
+            },
+            yellow: {
+              brand: '#FFD600',
+              light: '#FFE500',
+              dark: '#E0BC00',
+            },
+            canvas: {
+              base: 'var(--bg-base)',
+              card: 'var(--bg-card)',
+              pure: 'var(--bg-card)',
+              subtle: 'var(--bg-subtle)',
+              elevated: 'var(--bg-elevated)',
+              border: 'var(--border-color)',
+            },
+            ink: {
+              900: 'var(--text-900)',
+              700: 'var(--text-700)',
+              500: 'var(--text-500)',
+              300: 'var(--text-300)',
+            }
+          },
+          fontFamily: {
+            heading: ['Manrope', 'sans-serif'],
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- JSON-LD: LocalBusiness Schema with Real Coordinates & Opening Hours -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "@id": "https://okay-english.ru/#studio",
+    "name": "OkayEnglish (Студия английского языка)",
+    "image": "https://okay-english.ru/images/hero_olga.jpg",
+    "telephone": "+7-922-478-77-11",
+    "url": "https://okay-english.ru/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Николая Зелинского, 17, 1 этаж",
+      "addressLocality": "Тюмень",
+      "addressRegion": "Тюменская область",
+      "postalCode": "625051",
+      "addressCountry": "RU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 57.113973,
+      "longitude": 65.559729
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "12:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "opens": "14:30",
+        "closes": "18:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0"
+    },
+    "priceRange": "4600 - 5200 RUB"
+  }
+  </script>
+
+  <style>
+    /* CSS Theme Custom Properties */
+    :root {
+      --bg-base: #FAF8FD;
+      --bg-card: #FFFFFF;
+      --bg-subtle: #F4EEFB;
+      --bg-elevated: #EDE4F7;
+      --border-color: rgba(91, 11, 181, 0.12);
+      --text-900: #170D28;
+      --text-700: #3D334C;
+      --text-500: #6C627E;
+      --text-300: #A197B3;
+      --violet-surface: rgba(91, 11, 181, 0.07);
+    }
+
+    html.dark {
+      --bg-base: #0B0C11;
+      --bg-card: #141620;
+      --bg-subtle: #1B1E2B;
+      --bg-elevated: #242738;
+      --border-color: rgba(255, 255, 255, 0.12);
+      --text-900: #F6F5FA;
+      --text-700: #CDC7DC;
+      --text-500: #988FA8;
+      --text-300: #625974;
+      --violet-surface: rgba(140, 56, 250, 0.16);
+    }
+
+    /* Hairline border utility */
+    .hairline-border {
+      border-color: var(--border-color) !important;
+    }
+
+    /* Custom selection */
+    ::selection {
+      background: #FF0AB8;
+      color: #FFFFFF;
+    }
+
+    /* Smooth transitions for theme switching */
+    body, header, section, div, h1, h2, h3, h4, p, span, a, input, select, button {
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Dark theme explicit overrides */
+    html.dark .bg-white {
+      background-color: var(--bg-card) !important;
+    }
+    html.dark input, 
+    html.dark select {
+      background-color: #101118 !important;
+      color: #F6F5FA !important;
+      border-color: rgba(255, 255, 255, 0.15) !important;
+    }
+    html.dark input::placeholder {
+      color: #726A82 !important;
+    }
+  </style>
+</head>
+
+<body class="bg-canvas-base text-ink-900 font-sans antialiased selection:bg-magenta-neon selection:text-white">
+
+  <!-- =========================================================================
+       00 / STICKY HEADER & NAVIGATION + THEME TOGGLE & MOBILE DRAWER
+       ========================================================================= -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-3.5 sm:py-5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between gap-3 sm:gap-4">
+        
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-2 group shrink-0">
+          <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-ink-900 flex items-center whitespace-nowrap">
+            OkayEnglish<span class="text-magenta-neon font-extrabold group-hover:scale-125 transition-transform duration-300">.</span>
+          </span>
+          <span class="hidden md:inline-block font-mono text-[10px] tracking-widest text-ink-500 uppercase border-l hairline-border pl-2.5 ml-1 whitespace-nowrap">
+            Тюмень • Зелинского, 17
+          </span>
+        </a>
+
+        <!-- Desktop Navigation Links (Clean 5 anchors) -->
+        <nav class="hidden xl:flex items-center gap-6 font-mono text-xs uppercase tracking-widest text-ink-700 whitespace-nowrap">
+          <a href="#about" class="hover:text-violet-brand transition-colors whitespace-nowrap">О студии</a>
+          <a href="#atmosphere" class="hover:text-violet-brand transition-colors whitespace-nowrap">Кабинет</a>
+          <a href="#pricing" class="hover:text-violet-brand transition-colors whitespace-nowrap">Стоимость</a>
+          <a href="#reviews" class="hover:text-violet-brand transition-colors whitespace-nowrap">Отзывы 2GIS</a>
+          <a href="#contacts" class="hover:text-violet-brand transition-colors whitespace-nowrap">Контакты</a>
+        </nav>
+
+        <!-- Right Side: Phone + Theme Toggle + CTA + Hamburger -->
+        <div class="flex items-center gap-2 sm:gap-3.5 shrink-0">
+          
+          <!-- Theme Toggle Button (Desktop & Mobile) -->
+          <button 
+            id="themeToggleBtn" 
+            onclick="toggleTheme()" 
+            type="button" 
+            aria-label="Переключить тему оформления" 
+            title="Светлая / Тёмная тема"
+            class="w-9 h-9 sm:w-10 sm:h-10 border hairline-border bg-canvas-card hover:bg-canvas-subtle flex items-center justify-center text-ink-900 transition-colors shadow-xs"
+          >
+            <span class="theme-icon-slot">
+              <i data-lucide="moon" class="w-4 h-4 text-violet-brand"></i>
+            </span>
+          </button>
+
+          <!-- Mobile Direct Call Button -->
+          <a 
+            href="tel:+79224787711" 
+            class="xl:hidden w-9 h-9 sm:w-10 sm:h-10 border hairline-border bg-canvas-card hover:bg-canvas-subtle flex items-center justify-center text-violet-brand transition-colors shadow-xs"
+            aria-label="Позвонить в студию"
+            title="+7 (922) 478-77-11"
+          >
+            <i data-lucide="phone" class="w-4 h-4"></i>
+          </a>
+
+          <!-- Desktop Direct Phone -->
+          <a href="tel:+79224787711" class="hidden xl:flex items-center gap-1.5 font-mono text-xs font-semibold text-ink-900 hover:text-violet-brand transition-colors whitespace-nowrap shrink-0">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-violet-brand shrink-0"></i>
+            <span class="whitespace-nowrap">+7 (922) 478-77-11</span>
+          </a>
+
+          <!-- CTA Button -->
+          <a href="#booking" class="hidden sm:flex px-4 sm:px-5 py-2.5 bg-violet-brand hover:bg-violet-dark text-white font-mono text-xs uppercase tracking-widest transition-all duration-200 shadow-sm hover:shadow items-center gap-2 whitespace-nowrap shrink-0">
+            <span>Записаться</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-yellow-brand shrink-0"></i>
+          </a>
+
+          <!-- Hamburger Button (Mobile / Tablet) -->
+          <button 
+            id="mobileMenuToggle" 
+            onclick="toggleMobileMenu()" 
+            type="button" 
+            aria-label="Открыть мобильное меню" 
+            class="xl:hidden w-9 h-9 sm:w-10 sm:h-10 border hairline-border bg-canvas-card hover:bg-canvas-subtle flex items-center justify-center text-ink-900 transition-colors shadow-xs"
+          >
+            <i id="mobileMenuIcon" data-lucide="menu" class="w-4 h-4 text-violet-brand"></i>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu (Slide-down with backdrop blur) -->
+    <div 
+      id="mobileDrawer" 
+      class="hidden opacity-0 -translate-y-4 transition-all duration-300 fixed inset-x-0 top-[60px] sm:top-[68px] bg-canvas-base/98 border-b hairline-border shadow-2xl backdrop-blur-xl z-40 xl:hidden overflow-y-auto max-h-[calc(100vh-68px)]"
+    >
+      <div class="max-w-7xl mx-auto px-5 py-6 space-y-5 font-mono">
+        <div class="flex items-center justify-between pb-3 border-b hairline-border text-xs">
+          <span class="text-ink-500 uppercase tracking-widest text-[10px]">НАВИГАЦИЯ ПО САЙТУ</span>
+          <button onclick="toggleTheme()" class="flex items-center gap-2 text-ink-900 bg-canvas-card px-3 py-1.5 border hairline-border text-xs">
+            <span class="theme-icon-slot"><i data-lucide="moon" class="w-3.5 h-3.5 text-violet-brand"></i></span>
+            <span id="mobileThemeLabel">Сменить тему</span>
+          </button>
+        </div>
+
+        <nav class="space-y-1 text-sm">
+          <a href="#about" onclick="closeMobileMenu()" class="block py-2.5 px-3 hover:bg-violet-surface text-ink-900 border-b hairline-border">
+            01 / О студии и методике
+          </a>
+          <a href="#atmosphere" onclick="closeMobileMenu()" class="block py-2.5 px-3 hover:bg-violet-surface text-ink-900 border-b hairline-border">
+            02 / Кабинет на Зелинского, 17
+          </a>
+          <a href="#pricing" onclick="closeMobileMenu()" class="block py-2.5 px-3 hover:bg-violet-surface text-ink-900 border-b hairline-border">
+            03 / Стоимость обучения
+          </a>
+          <a href="#reviews" onclick="closeMobileMenu()" class="block py-2.5 px-3 hover:bg-violet-surface text-ink-900 border-b hairline-border">
+            04 / Проверенные отзывы 2GIS
+          </a>
+          <a href="#contacts" onclick="closeMobileMenu()" class="block py-2.5 px-3 hover:bg-violet-surface text-ink-900">
+            05 / Контакты и запись
+          </a>
+        </nav>
+
+        <div class="pt-3 border-t hairline-border space-y-3">
+          <a href="tel:+79224787711" class="flex items-center justify-center gap-2 py-3 bg-canvas-card border hairline-border text-ink-900 font-bold text-sm">
+            <i data-lucide="phone" class="w-4 h-4 text-violet-brand"></i>
+            <span>+7 (922) 478-77-11</span>
+          </a>
+          <a href="#booking" onclick="closeMobileMenu()" class="w-full py-3.5 bg-violet-brand text-white text-center font-mono text-xs uppercase tracking-widest block shadow-md">
+            Записаться на обучение
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       01 / HERO + ОСНОВАТЕЛЬ (ЕДИНЫЙ ВВОДНЫЙ РАЗДЕЛ)
+       ========================================================================= -->
+  <section id="hero" class="pt-24 sm:pt-32 lg:pt-36 pb-14 sm:pb-20 lg:pb-24 border-b hairline-border relative overflow-hidden bg-canvas-base">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Small Meta Badge -->
+      <div class="inline-flex items-center gap-2 px-3 py-1 bg-canvas-subtle border hairline-border font-mono text-[10px] sm:text-[11px] uppercase tracking-widest text-ink-700 mb-6 sm:mb-8">
+        <span class="w-2 h-2 rounded-full bg-violet-brand"></span>
+        <span>OKAYENGLISH • ТЮМЕНЬ • ЗЕЛИНСКОГО, 17</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-10 sm:mb-14">
+        
+        <!-- Left: Extreme Typographic Hierarchy & Teacher Philosophy -->
+        <div class="lg:col-span-7">
+          <h1 class="font-heading font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-[72px] leading-[1.05] tracking-tight text-ink-900 mb-4 sm:mb-6">
+            Английский —<br>
+            это <span class="relative inline-block">
+              <span class="relative z-10 text-violet-brand">okay.</span>
+              <span class="absolute bottom-1 sm:bottom-2 left-0 right-0 h-3 sm:h-4 bg-yellow-brand/40 -z-0 transform -rotate-1"></span>
+            </span><br>
+            Ваш ребёнок заговорит.
+          </h1>
+
+          <p class="font-sans text-base sm:text-lg lg:text-xl text-ink-700 max-w-xl leading-relaxed mb-6 font-normal">
+            Студия на Зелинского, 17. Групповые занятия для школьников 1-9 классов. Без зубрёжки, с живым общением и реальным результатом.
+          </p>
+
+          <!-- Teacher Core Philosophy / Quote (Merged from Teacher Section) -->
+          <div class="p-4 sm:p-5 bg-violet-surface border-l-4 border-violet-brand my-5 sm:my-6 max-w-xl">
+            <div class="font-heading font-extrabold text-sm sm:text-base text-ink-900 mb-1 leading-snug">
+              «Моя цель — чтобы ребёнок перестал бояться делать ошибки»
+            </div>
+            <p class="font-sans text-xs sm:text-sm text-ink-700 leading-relaxed">
+              В школьной системе за ошибку наказывают плохой оценкой, и ребёнок закрывается. В студии OkayEnglish мы создаём безопасную среду: ошибки — это естественный шаг освоения живого языка.
+            </p>
+          </div>
+
+          <!-- Action Buttons (Mobile-first responsive layout) -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
+            <a href="#booking" class="w-full sm:w-auto px-7 py-3.5 sm:py-4 bg-violet-brand hover:bg-violet-dark text-white font-mono text-xs uppercase tracking-widest transition-all duration-200 flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg hover:-translate-y-0.5 text-center">
+              <span>Записаться на обучение</span>
+              <i data-lucide="sparkles" class="w-4 h-4 text-yellow-brand shrink-0"></i>
+            </a>
+
+            <a href="#pricing" class="w-full sm:w-auto px-6 py-3.5 sm:py-4 bg-canvas-card hover:bg-canvas-subtle border hairline-border text-ink-900 font-mono text-xs uppercase tracking-widest transition-all duration-200 flex items-center justify-center gap-2 text-center">
+              <span>Посмотреть цены</span>
+              <i data-lucide="arrow-down" class="w-4 h-4 text-ink-500 shrink-0"></i>
+            </a>
+
+            <a href="https://vk.com/okayenglish_tmn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-5 py-3.5 sm:py-4 bg-canvas-card hover:bg-canvas-subtle border hairline-border text-ink-900 font-mono text-xs uppercase tracking-widest transition-all duration-200 flex items-center justify-center gap-2 text-center" title="Группа ВКонтакте">
+              <i data-lucide="share-2" class="w-3.5 h-3.5 text-violet-brand shrink-0"></i>
+              <span>VK</span>
+            </a>
+          </div>
+
+          <!-- Bottom Meta Badge: 2GIS Rating & Capacity -->
+          <div class="pt-4 sm:pt-5 border-t hairline-border flex flex-wrap items-center gap-y-2 gap-x-3 sm:gap-x-5 font-mono text-[10px] sm:text-[11px] uppercase tracking-widest text-ink-500">
+            <div class="flex items-center gap-1.5 bg-violet-surface border hairline-border px-2.5 py-1">
+              <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand text-yellow-brand"></i>
+              <span class="text-violet-brand font-bold">5.0 НА 2GIS</span>
+            </div>
+            <span>•</span>
+            <span class="text-ink-700 font-semibold">РЕАЛЬНЫЕ ОТЗЫВЫ</span>
+            <span>•</span>
+            <span>ТЮМЕНСКИЙ 3-Й М-Н</span>
+            <span>•</span>
+            <span class="text-violet-brand font-bold">ДО 8 ДЕТЕЙ В ГРУППЕ</span>
+          </div>
+        </div>
+
+        <!-- Right: Authentic Photo of Founder Olga Dmitrievna (Attached by User) with Solid Docked Details -->
+        <div class="lg:col-span-5 relative">
+          <div class="border hairline-border bg-canvas-card p-3 sm:p-4 shadow-sm">
+            
+            <!-- Real photo: Olga Dmitrievna in cap and gown holding Cambridge certificate -->
+            <div class="relative overflow-hidden aspect-square bg-canvas-subtle">
+              <img 
+                src="images/hero_olga.jpg" 
+                alt="Кузьмина Ольга Дмитриевна — основатель студии OkayEnglish с сертификатом Cambridge Complete Advanced" 
+                class="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-700"
+                fetchpriority="high"
+              />
+            </div>
+
+            <!-- Solid Docked Information Card (100% readable, zero overlay on photo) -->
+            <div class="mt-3 sm:mt-4 pt-3.5 border-t hairline-border space-y-2.5 font-mono">
+              <div class="flex flex-wrap justify-between items-center gap-2">
+                <span class="font-bold text-ink-900 text-xs tracking-tight">КУЗЬМИНА ОЛЬГА ДМИТРИЕВНА</span>
+                <span class="text-violet-brand font-bold bg-violet-surface border hairline-border px-2 py-0.5 text-[10px] uppercase tracking-widest">
+                  ОСНОВАТЕЛЬ
+                </span>
+              </div>
+
+              <div class="p-3 bg-canvas-subtle border hairline-border">
+                <div class="text-[10px] text-violet-brand font-bold uppercase tracking-widest mb-1 flex items-center gap-1.5">
+                  <i data-lucide="award" class="w-3.5 h-3.5 shrink-0"></i>
+                  <span>МЕЖДУНАРОДНЫЙ ДИПЛОМ</span>
+                </div>
+                <div class="font-heading font-extrabold text-sm text-ink-900 leading-snug">
+                  Cambridge Complete Advanced (C1)
+                </div>
+                <div class="text-[11px] text-ink-700 mt-0.5 font-sans leading-relaxed">
+                  Подтверждает академический и разговорный уровень владения языком.
+                </div>
+              </div>
+
+              <div class="text-[11px] text-ink-700 italic font-sans flex items-center gap-2 pt-0.5">
+                <i data-lucide="heart" class="w-3.5 h-3.5 text-magenta-brand shrink-0"></i>
+                <span>«Здесь учат с любовью. Love what you do, do what you love»</span>
+              </div>
+            </div>
+
+            <div class="mt-3 pt-2.5 border-t hairline-border font-mono text-[10px] text-ink-500 flex justify-between items-center">
+              <span>OKAYENGLISH • TYUMEN</span>
+              <span class="text-violet-brand font-bold">ОТКРЫТ НАБОР В ГРУППЫ</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3 Bento Highlights Strip (Merged from Teacher Section) -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 sm:pt-8 border-t hairline-border">
+        
+        <div class="border hairline-border bg-canvas-card p-4 sm:p-5 group hover:border-violet-brand/40 transition-colors">
+          <div class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold mb-1.5">
+            01 / КВАЛИФИКАЦИЯ
+          </div>
+          <div class="font-heading font-extrabold text-base text-ink-900 mb-1">
+            Cambridge Level
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-relaxed">
+            Complete Advanced C1. Глубокое владение академическим и разговорным английским.
+          </p>
+        </div>
+
+        <div class="border hairline-border bg-canvas-card p-4 sm:p-5 group hover:border-violet-brand/40 transition-colors">
+          <div class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold mb-1.5">
+            02 / ФОРМАТ
+          </div>
+          <div class="font-heading font-extrabold text-base text-ink-900 mb-1">
+            До 8 учеников
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-relaxed">
+            Слышу произношение каждого ребёнка. Никто не отсиживается на задней парте.
+          </p>
+        </div>
+
+        <div class="border hairline-border bg-canvas-card p-4 sm:p-5 group hover:border-violet-brand/40 transition-colors">
+          <div class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold mb-1.5">
+            03 / РЕЗУЛЬТАТ
+          </div>
+          <div class="font-heading font-extrabold text-base text-ink-900 mb-1">
+            Оценка 5.0 на 2GIS
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-relaxed">
+            Родители Тюмени единогласно подтверждают: дети бегут на занятия с радостью.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       01 / О СТУДИИ (BENTO-СЕТКА ИЗ 4 БЛОКОВ)
+       ========================================================================= -->
+  <section id="about" class="py-24 sm:py-36 border-b hairline-border bg-canvas-subtle/50">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8">
+      
+      <!-- Section Tagline -->
+      <div class="flex justify-between items-baseline mb-16 border-b hairline-border pb-4 font-mono text-xs uppercase tracking-widest text-ink-500">
+        <span>01 / О СТУДИИ</span>
+        <span>ПРИНЦИПЫ И АТМОСФЕРА</span>
+      </div>
+
+      <div class="max-w-2xl mb-14">
+        <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-ink-900 leading-tight mb-4">
+          Почему родители выбирают нас
+        </h2>
+        <p class="font-sans text-base sm:text-lg text-ink-700 leading-relaxed">
+          Мы создали пространство в Тюмени, куда школьники бегут с радостью. Без школьного прессинга, с пониманием детской психологии и уважением к личности ребёнка.
+        </p>
+      </div>
+
+      <!-- Asymmetric Bento Grid: 4 distinct blocks with 1px hairline borders -->
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
+        
+        <!-- Block 1: [Большой блок] (md:col-span-7) - Методика, а не муштра -->
+        <div class="md:col-span-7 border hairline-border bg-canvas-card p-8 sm:p-10 flex flex-col justify-between group hover:border-violet-brand/40 transition-all duration-300">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold bg-violet-surface border hairline-border px-3 py-1">
+                ФОКУС: РАЗГОВОРНАЯ РЕЧЬ
+              </span>
+              <span class="font-mono text-xs text-ink-500">70 / 30 RULE</span>
+            </div>
+
+            <h3 class="font-heading font-extrabold text-2xl sm:text-3xl text-ink-900 mb-4 group-hover:text-violet-brand transition-colors">
+              Методика, а не муштра
+            </h3>
+
+            <p class="font-sans text-base text-ink-700 leading-relaxed mb-6">
+              <strong>70% времени урока</strong> — это разговорная практика, интерактивные командные игры, квесты и создание проектов. <strong>30%</strong> — необходимая грамматика, которую ребёнок осваивает прямо в контексте живой речи, а не переписывая скучные упражнения в тетрадь.
+            </p>
+          </div>
+
+          <div class="pt-6 border-t hairline-border grid grid-cols-2 gap-4 font-mono text-xs text-ink-700">
+            <div>
+              <span class="text-violet-brand font-bold text-lg block">70%</span>
+              <span class="text-[11px] text-ink-500">Диалоги и практика</span>
+            </div>
+            <div>
+              <span class="text-magenta-brand font-bold text-lg block">30%</span>
+              <span class="text-[11px] text-ink-500">Грамматика в контексте</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 2: [Средний блок] (md:col-span-5) - Мини-группы -->
+        <div class="md:col-span-5 border hairline-border bg-canvas-card p-8 sm:p-10 flex flex-col justify-between group hover:border-violet-brand/40 transition-all duration-300">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-ink-700 font-bold bg-canvas-subtle px-3 py-1">
+                КАМЕРНЫЙ ФОРМАТ
+              </span>
+              <i data-lucide="users" class="w-5 h-5 text-violet-brand"></i>
+            </div>
+
+            <h3 class="font-heading font-extrabold text-2xl text-ink-900 mb-4 group-hover:text-violet-brand transition-colors">
+              Мини-группы до 8 человек
+            </h3>
+
+            <p class="font-sans text-base text-ink-700 leading-relaxed mb-6">
+              Преподаватель слышит каждое произнесённое слово и успевает уделить внимание каждому ребёнку. Никто не «отсиживается на задней парте», как в школьном классе из 30 человек.
+            </p>
+          </div>
+
+          <div class="pt-6 border-t hairline-border font-mono text-xs text-ink-500 flex justify-between items-center">
+            <span>КОМФОРТНЫЙ ТЕМП</span>
+            <span class="font-bold text-ink-900">ДО 8 УЧЕНИКОВ</span>
+          </div>
+        </div>
+
+        <!-- Block 3: [Средний блок] (md:col-span-8) - Удобная локация -->
+        <div class="md:col-span-8 border hairline-border bg-canvas-card p-8 sm:p-10 flex flex-col justify-between group hover:border-violet-brand/40 transition-all duration-300">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold bg-violet-surface px-3 py-1">
+                ВОСТОЧНЫЙ ОКРУГ • ТЮМЕНЬ
+              </span>
+              <i data-lucide="map-pin" class="w-5 h-5 text-violet-brand"></i>
+            </div>
+
+            <h3 class="font-heading font-extrabold text-2xl sm:text-3xl text-ink-900 mb-4 group-hover:text-violet-brand transition-colors">
+              Удобная локация в Тюменском 3-м микрорайоне
+            </h3>
+
+            <p class="font-sans text-base text-ink-700 leading-relaxed mb-6">
+              ул. Николая Зелинского, 17, 1 этаж. Отдельный тёплый вход, удобная парковка для родителей, светлый кабинет с правильным освещением, чайная зона и уютная атмосфера без школьных парт.
+            </p>
+          </div>
+
+          <div class="pt-6 border-t hairline-border flex flex-wrap justify-between items-center font-mono text-xs text-ink-500 gap-2">
+            <span>ЗЕЛИНСКОГО, 17 • 1 ЭТАЖ</span>
+            <a href="#contacts" class="text-violet-brand font-bold hover:underline flex items-center gap-1">
+              <span>Смотреть на карте</span>
+              <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Block 4: [Узкий блок с цифрой] (md:col-span-4) - 5.0 2GIS -->
+        <div class="md:col-span-4 border-2 border-violet-brand bg-canvas-card p-8 sm:p-10 flex flex-col justify-between shadow-sm">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold bg-violet-surface px-2.5 py-1">
+                2GIS VERIFIED
+              </span>
+              <div class="flex gap-1 text-yellow-brand">
+                <i data-lucide="star" class="w-4 h-4 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-yellow-brand"></i>
+              </div>
+            </div>
+
+            <div class="font-heading font-extrabold text-6xl sm:text-7xl text-violet-brand tracking-tight mb-2">
+              5.0
+            </div>
+
+            <h4 class="font-heading font-extrabold text-xl text-ink-900 mb-2">
+              Честная оценка на 2GIS
+            </h4>
+
+            <p class="font-sans text-sm text-ink-700 leading-relaxed mb-6">
+              На основе проверенных оценок родителей Тюмени. 9 из 10 новых учеников приходят к нам по рекомендации друзей.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t hairline-border">
+            <a href="https://2gis.ru/tyumen/firm/70000001045820413/tab/reviews" target="_blank" rel="noopener noreferrer" class="font-mono text-xs text-violet-brand font-bold hover:text-violet-dark flex items-center gap-1.5 transition-colors">
+              <span>Открыть карточку в 2GIS</span>
+              <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+    <!-- =========================================================================
+       02 / АТМОСФЕРА СТУДИИ (КАБИНЕТ НА ЗЕЛИНСКОГО, 17)
+       ========================================================================= -->
+  <section id="atmosphere" class="py-24 sm:py-36 border-b hairline-border bg-canvas-subtle/50">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex justify-between items-baseline mb-14 sm:mb-16 border-b hairline-border pb-4 font-mono text-xs uppercase tracking-widest text-ink-500">
+        <span>02 / АТМОСФЕРА И ПРОСТРАНСТВО</span>
+        <span>ЗЕЛИНСКОГО, 17 • 1 ЭТАЖ</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-12 sm:mb-14">
+        <div class="lg:col-span-8">
+          <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-ink-900 leading-tight mb-4">
+            Кабинет, где хочется учиться
+          </h2>
+          <p class="font-sans text-base sm:text-lg text-ink-700 leading-relaxed max-w-2xl">
+            Светлое пространство с британской символикой, интерактивной доской и зоной отдыха. Создано так, чтобы ребёнок чувствовал себя в безопасности, не боялся ошибок и с радостью говорил на английском.
+          </p>
+        </div>
+        <div class="lg:col-span-4 lg:text-right font-mono text-xs text-ink-500">
+          <div>ГРУППЫ ДО 8 УЧЕНИКОВ</div>
+          <div class="text-violet-brand font-bold mt-1">ОТДЕЛЬНЫЙ ВХОД С УЛИЦЫ</div>
+        </div>
+      </div>
+
+      <!-- 3 Real Studio Photos in a Harmonious 3-Column Triptych Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch mb-8">
+        
+        <!-- Photo 1: Studio Classroom Space (1/3 width, 4:3 frame) -->
+        <div class="border hairline-border bg-canvas-card overflow-hidden shadow-sm flex flex-col justify-between group hover:border-violet-brand/40 transition-all duration-300">
+          <div>
+            <div class="relative overflow-hidden aspect-[4/3] bg-canvas-subtle">
+              <img 
+                src="images/studio_classroom_window.jpg" 
+                alt="Светлый учебный кабинет студии OkayEnglish на ул. Николая Зелинского, 17" 
+                class="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 font-mono">
+              <div class="flex items-center justify-between text-[10px] text-violet-brand font-bold uppercase tracking-widest mb-2">
+                <span>01 / КАБИНЕТ НА ЗЕЛИНСКОГО</span>
+                <span class="text-ink-500">1 ЭТАЖ</span>
+              </div>
+              <div class="font-heading font-extrabold text-lg text-ink-900 mb-2">
+                Камерный класс до 8 мест
+              </div>
+              <p class="font-sans text-xs sm:text-sm text-ink-700 leading-relaxed">
+                Светлое учебное пространство с естественным освещением из большого окна, комфортными партами и шторами с британской символикой без школьной казённости.
+              </p>
+            </div>
+          </div>
+          <div class="px-6 py-3 border-t hairline-border bg-canvas-subtle font-mono text-[10px] uppercase tracking-widest text-ink-500 flex justify-between items-center">
+            <span>Уют и свет</span>
+            <i data-lucide="sun" class="w-3.5 h-3.5 text-yellow-brand"></i>
+          </div>
+        </div>
+
+        <!-- Photo 2: Studio Interior & Brand Atmosphere (1/3 width, 4:3 frame, object-top for full uncropped logo!) -->
+        <div class="border hairline-border bg-canvas-card overflow-hidden shadow-sm flex flex-col justify-between group hover:border-violet-brand/40 transition-all duration-300">
+          <div>
+            <div class="relative overflow-hidden aspect-[4/3] bg-canvas-subtle">
+              <img 
+                src="images/studio_interior_brand.jpg" 
+                alt="Фирменная бренд-зона студии OkayEnglish с логотипом и библиотекой материалов" 
+                class="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 font-mono">
+              <div class="flex items-center justify-between text-[10px] text-violet-brand font-bold uppercase tracking-widest mb-2">
+                <span>02 / ФИРМЕННАЯ СРЕДА</span>
+                <span class="text-ink-500">ИНТЕРЬЕР</span>
+              </div>
+              <div class="font-heading font-extrabold text-lg text-ink-900 mb-2">
+                Студия OkayEnglish и комфорт
+              </div>
+              <p class="font-sans text-xs sm:text-sm text-ink-700 leading-relaxed">
+                Фирменная акцентная стена с логотипом, методические стеллажи с пособиями и спокойная обстановка, где легко сосредоточиться и снять языковой барьер.
+              </p>
+            </div>
+          </div>
+          <div class="px-6 py-3 border-t hairline-border bg-canvas-subtle font-mono text-[10px] uppercase tracking-widest text-ink-500 flex justify-between items-center">
+            <span>Атмосфера</span>
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-violet-brand"></i>
+          </div>
+        </div>
+
+        <!-- Photo 3: Interactive Whiteboard Lesson & Games (1/3 width, 4:3 frame, 99% visible whiteboard!) -->
+        <div class="border hairline-border bg-canvas-card overflow-hidden shadow-sm flex flex-col justify-between group hover:border-violet-brand/40 transition-all duration-300">
+          <div>
+            <div class="relative overflow-hidden aspect-[4/3] bg-canvas-subtle">
+              <img 
+                src="images/studio_lesson_board.jpg" 
+                alt="Ученики на интерактивном уроке английского языка у магнитной доски в студии OkayEnglish" 
+                class="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 font-mono">
+              <div class="flex items-center justify-between text-[10px] text-violet-brand font-bold uppercase tracking-widest mb-2">
+                <span>03 / ЖИВЫЕ УРОКИ</span>
+                <span class="text-ink-500">ПРАКТИКА</span>
+              </div>
+              <div class="font-heading font-extrabold text-lg text-ink-900 mb-2">
+                Интерактив у доски и игры
+              </div>
+              <p class="font-sans text-xs sm:text-sm text-ink-700 leading-relaxed">
+                Командные языковые игры («orange team» vs «blue team»), соревновательные карточки с числами и днями недели для живого вовлечения каждого ребёнка.
+              </p>
+            </div>
+          </div>
+          <div class="px-6 py-3 border-t hairline-border bg-canvas-subtle font-mono text-[10px] uppercase tracking-widest text-ink-500 flex justify-between items-center">
+            <span>Живая речь</span>
+            <i data-lucide="users" class="w-3.5 h-3.5 text-magenta-brand"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Studio Infrastructure & Parental Amenities Bento (Full-Width Card) -->
+      <div class="border hairline-border bg-canvas-card p-6 sm:p-8 lg:p-10 shadow-sm">
+        
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6 border-b hairline-border mb-6">
+          <div>
+            <span class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold bg-violet-surface border hairline-border px-3 py-1 inline-block mb-3">
+              ИНФРАСТРУКТУРА • ЗЕЛИНСКОГО, 17 • 1 ЭТАЖ
+            </span>
+            <h3 class="font-heading font-extrabold text-2xl sm:text-3xl text-ink-900">
+              Всё продумано для комфорта детей и родителей
+            </h3>
+          </div>
+          <p class="font-sans text-sm sm:text-base text-ink-700 max-w-lg leading-relaxed">
+            Студия спроектирована специально для камерных мини-групп: здесь нет офисной суеты, лабиринтов торговых центров и казённой строгости.
+          </p>
+        </div>
+
+        <!-- 4 Specs Grid (Balanced 4-column layout on desktop) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 font-mono text-xs">
+          
+          <div class="p-4 bg-canvas-subtle border hairline-border flex flex-col justify-between">
+            <div class="font-bold text-ink-900 text-xs mb-2 flex items-center gap-2">
+              <i data-lucide="door-open" class="w-4 h-4 text-violet-brand shrink-0"></i>
+              <span>ОТДЕЛЬНЫЙ ВХОД (1 ЭТАЖ)</span>
+            </div>
+            <div class="text-ink-600 font-sans text-xs leading-relaxed">
+              Быстрый и удобный доступ без лифтов, проходных и лабиринтов ТЦ.
+            </div>
+          </div>
+
+          <div class="p-4 bg-canvas-subtle border hairline-border flex flex-col justify-between">
+            <div class="font-bold text-ink-900 text-xs mb-2 flex items-center gap-2">
+              <i data-lucide="car" class="w-4 h-4 text-violet-brand shrink-0"></i>
+              <span>УДОБНАЯ ПАРКОВКА</span>
+            </div>
+            <div class="text-ink-600 font-sans text-xs leading-relaxed">
+              Родителям легко припарковать машину прямо у входа, встречая ребёнка.
+            </div>
+          </div>
+
+          <div class="p-4 bg-canvas-subtle border hairline-border flex flex-col justify-between">
+            <div class="font-bold text-ink-900 text-xs mb-2 flex items-center gap-2">
+              <i data-lucide="coffee" class="w-4 h-4 text-violet-brand shrink-0"></i>
+              <span>ЧАЙНАЯ ЗОНА</span>
+            </div>
+            <div class="text-ink-600 font-sans text-xs leading-relaxed">
+              Чистая питьевая вода, чай и комфортная зона отдыха до и после уроков.
+            </div>
+          </div>
+
+          <div class="p-4 bg-canvas-subtle border hairline-border flex flex-col justify-between">
+            <div class="font-bold text-ink-900 text-xs mb-2 flex items-center gap-2">
+              <i data-lucide="shield-check" class="w-4 h-4 text-violet-brand shrink-0"></i>
+              <span>БЕЗОПАСНАЯ СРЕДА</span>
+            </div>
+            <div class="text-ink-600 font-sans text-xs leading-relaxed">
+              Светлый чистый кабинет с правильным освещением и видеонаблюдением.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer Meta Row -->
+        <div class="pt-5 mt-6 border-t hairline-border flex flex-wrap justify-between items-center font-mono text-xs text-ink-500 gap-3">
+          <div class="flex items-center gap-2">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-violet-brand"></i>
+            <span>ВОСТОЧНЫЙ ОКРУГ • ТЮМЕНСКИЙ 3-Й М-Н</span>
+          </div>
+          <a href="#contacts" class="text-violet-brand font-bold hover:underline flex items-center gap-1.5 transition-colors">
+            <span>График работы и контакты</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       04 / ТАРИФЫ (РЕАЛЬНЫЕ ЦЕНЫ)
+       ========================================================================= -->
+  <section id="pricing" class="py-24 sm:py-36 border-b hairline-border bg-canvas-base">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex justify-between items-baseline mb-16 border-b hairline-border pb-4 font-mono text-xs uppercase tracking-widest text-ink-500">
+        <span>03 / СТОИМОСТЬ ОБУЧЕНИЯ</span>
+        <span>РЕАЛЬНЫЕ ЦЕНЫ</span>
+      </div>
+
+      <div class="max-w-2xl mb-16">
+        <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-ink-900 leading-tight mb-4">
+          Прозрачные цены.<br>
+          Никаких скрытых платежей.
+        </h2>
+        <p class="font-sans text-base sm:text-lg text-ink-700">
+          Обучение в мини-группах до 8 человек в студии на ул. Николая Зелинского, 17. 4 занятия по 60 минут в месяц.
+        </p>
+      </div>
+
+      <!-- 3 Asymmetric Editorial Cards -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-10">
+        
+        <!-- Card 1: 1 класс (lg:col-span-4) -->
+        <div class="lg:col-span-4 border hairline-border bg-white p-7 sm:p-8 flex flex-col justify-between group hover:border-violet-brand/40 transition-colors shadow-xs">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500 font-bold bg-canvas-subtle px-2.5 py-1">
+                МЛАДШАЯ ГРУППА
+              </span>
+              <span class="font-mono text-xs text-ink-500 font-semibold">1 КЛАСС</span>
+            </div>
+            
+            <h3 class="font-heading font-extrabold text-2xl text-ink-900 mb-2">
+              Мягкий старт
+            </h3>
+            
+            <p class="font-sans text-xs sm:text-sm text-ink-700 mb-6 leading-relaxed">
+              Постановка произношения без школьного давления, первые английские фразы в игровой форме.
+            </p>
+
+            <div class="mb-6 pb-6 border-b hairline-border">
+              <div class="flex items-baseline gap-2">
+                <span class="font-heading font-extrabold text-4xl text-ink-900">4 600 ₽</span>
+                <span class="font-mono text-xs text-ink-500">/ месяц</span>
+              </div>
+              <div class="font-mono text-[11px] text-ink-500 mt-1">
+                4 занятия по 60 минут • до 8 детей
+              </div>
+            </div>
+
+            <ul class="space-y-3 font-mono text-xs text-ink-700 mb-8">
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Игровая коммуникативная форма</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Базовая разговорная лексика и песни</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Постановка правильного произношения</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Уютная чайная зона и игры</span>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#booking" onclick="selectGradeProgram('1 класс (4 600 ₽/мес)')" class="w-full py-3.5 px-4 bg-canvas-base hover:bg-canvas-subtle border hairline-border text-ink-900 font-mono text-xs uppercase tracking-widest text-center transition-colors block">
+            Записаться на 1 класс
+          </a>
+        </div>
+
+        <!-- Card 2: 2–4 классы [Выделенная акцентом] (lg:col-span-4) -->
+        <div class="lg:col-span-4 border-2 border-violet-brand bg-white p-7 sm:p-8 flex flex-col justify-between relative shadow-lg">
+          
+          <!-- Highlight Badge -->
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-violet-brand text-yellow-brand font-mono text-[10px] uppercase tracking-widest font-extrabold px-3 py-1 shadow-sm whitespace-nowrap">
+            ★ ВЫБОР 80% РОДИТЕЛЕЙ
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center mb-4 mt-1">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold bg-violet-surface px-2.5 py-1">
+                НАЧАЛЬНАЯ ШКОЛА
+              </span>
+              <span class="font-mono text-xs text-violet-brand font-bold">2–4 КЛАССЫ</span>
+            </div>
+            
+            <h3 class="font-heading font-extrabold text-2xl text-ink-900 mb-2">
+              Школьный фундамент
+            </h3>
+            
+            <p class="font-sans text-xs sm:text-sm text-ink-700 mb-6 leading-relaxed">
+              Опережение школьной программы: беглое чтение по правилам, грамматика в речи и уверенные «5».
+            </p>
+
+            <div class="mb-6 pb-6 border-b hairline-border">
+              <div class="flex items-baseline gap-2">
+                <span class="font-heading font-extrabold text-4xl text-violet-brand">5 000 ₽</span>
+                <span class="font-mono text-xs text-ink-500">/ месяц</span>
+              </div>
+              <div class="font-mono text-[11px] text-violet-brand font-semibold mt-1">
+                4 занятия по 60 минут • до 8 детей
+              </div>
+            </div>
+
+            <ul class="space-y-3 font-mono text-xs text-ink-900 mb-8">
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span class="font-semibold">Правила чтения и транскрипция</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Базовая грамматика без зазубривания</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Диалоги и уверенность у доски</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Мини-группа до 8 человек</span>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#booking" onclick="selectGradeProgram('2–4 классы (5 000 ₽/мес)')" class="w-full py-4 px-4 bg-violet-brand hover:bg-violet-dark text-white font-mono text-xs uppercase tracking-widest text-center transition-colors shadow-md block">
+            Записаться на 2–4 классы
+          </a>
+        </div>
+
+        <!-- Card 3: 5–9 классы (lg:col-span-4) -->
+        <div class="lg:col-span-4 border hairline-border bg-white p-7 sm:p-8 flex flex-col justify-between group hover:border-violet-brand/40 transition-colors shadow-xs">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500 font-bold bg-canvas-subtle px-2.5 py-1">
+                СРЕДНЯЯ ШКОЛА
+              </span>
+              <span class="font-mono text-xs text-ink-500 font-semibold">5–9 КЛАССЫ</span>
+            </div>
+            
+            <h3 class="font-heading font-extrabold text-2xl text-ink-900 mb-2">
+              Разговорный клуб & ОГЭ
+            </h3>
+            
+            <p class="font-sans text-xs sm:text-sm text-ink-700 mb-6 leading-relaxed">
+              Снятие языкового барьера, свободное общение на актуальные темы и системная подготовка к ОГЭ.
+            </p>
+
+            <div class="mb-6 pb-6 border-b hairline-border">
+              <div class="flex items-baseline gap-2">
+                <span class="font-heading font-extrabold text-4xl text-ink-900">5 200 ₽</span>
+                <span class="font-mono text-xs text-ink-500">/ месяц</span>
+              </div>
+              <div class="font-mono text-[11px] text-ink-500 mt-1">
+                4 занятия по 60 минут • до 8 детей
+              </div>
+            </div>
+
+            <ul class="space-y-3 font-mono text-xs text-ink-700 mb-8">
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Углублённая грамматика B1/B2</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Дискуссионный клуб для подростков</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Разбор заданий формата ОГЭ</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i data-lucide="check" class="w-4 h-4 text-violet-brand shrink-0 mt-0.5"></i>
+                <span>Мини-группа до 8 человек</span>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#booking" onclick="selectGradeProgram('5–9 классы (5 200 ₽/мес)')" class="w-full py-3.5 px-4 bg-canvas-base hover:bg-canvas-subtle border hairline-border text-ink-900 font-mono text-xs uppercase tracking-widest text-center transition-colors block">
+            Записаться на 5–9 классы
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Bento Features Strip: 4 Authentic Studio Parameters -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 font-mono text-xs">
+        <div class="p-5 bg-white border hairline-border">
+          <div class="text-violet-brand font-bold uppercase tracking-wider text-[11px] mb-1.5 flex items-center gap-1.5">
+            <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+            <span>ФОРМАТ ЗАНЯТИЙ</span>
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-snug">
+            4 занятия по 60 минут в месяц: часовой урок с глубоким погружением в живую речь.
+          </p>
+        </div>
+        <div class="p-5 bg-white border hairline-border">
+          <div class="text-violet-brand font-bold uppercase tracking-wider text-[11px] mb-1.5 flex items-center gap-1.5">
+            <i data-lucide="users" class="w-3.5 h-3.5"></i>
+            <span>ДО 8 ДЕТЕЙ</span>
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-snug">
+            Преподаватель слышит произношение каждого ребёнка на каждом уроке.
+          </p>
+        </div>
+        <div class="p-5 bg-white border hairline-border">
+          <div class="text-violet-brand font-bold uppercase tracking-wider text-[11px] mb-1.5 flex items-center gap-1.5">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+            <span>ЗЕЛИНСКОГО, 17</span>
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-snug">
+            1 этаж, отдельный тёплый вход, Тюменский 3-й мкр, удобная парковка.
+          </p>
+        </div>
+        <div class="p-5 bg-white border hairline-border">
+          <div class="text-violet-brand font-bold uppercase tracking-wider text-[11px] mb-1.5 flex items-center gap-1.5">
+            <i data-lucide="award" class="w-3.5 h-3.5"></i>
+            <span>CAMBRIDGE ADVANCED</span>
+          </div>
+          <p class="font-sans text-xs text-ink-700 leading-snug">
+            Основатель Кузьмина Ольга Дмитриевна с международной квалификацией.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       05 / ОТЗЫВЫ ИЗ 2GIS (СПЕЦИАЛЬНЫЙ БЛОК)
+       ========================================================================= -->
+  <section id="reviews" class="py-24 sm:py-36 border-b hairline-border bg-canvas-subtle/50">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex justify-between items-baseline mb-16 border-b hairline-border pb-4 font-mono text-xs uppercase tracking-widest text-ink-500">
+        <span>04 / ДОВЕРИЕ РОДИТЕЛЕЙ</span>
+        <span>ПРОВЕРЕННЫЕ ОЦЕНКИ 2GIS</span>
+      </div>
+
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+        <div>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-ink-900 leading-tight mb-4">
+            Что говорят родители на 2GIS
+          </h2>
+          <p class="font-sans text-base sm:text-lg text-ink-700 max-w-xl">
+            Подлинные отзывы родителей тюменских школьников, которые водят детей в нашу студию на Зелинского, 17.
+          </p>
+        </div>
+
+        <div class="bg-canvas-card border hairline-border p-4 flex items-center gap-4 shrink-0">
+          <div class="w-12 h-12 rounded-none bg-violet-brand text-yellow-brand flex items-center justify-center font-heading font-extrabold text-xl">
+            5.0
+          </div>
+          <div class="font-mono text-xs">
+            <div class="font-bold text-ink-900 uppercase">РЕЙТИНГ В СЕРВИСЕ 2GIS</div>
+            <div class="text-ink-500 text-[11px]">Оценки родителей • Тюмень</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Authentic 2GIS Review Cards (Compact, Space-Efficient Bento Grid) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 mb-8">
+        
+        <!-- Review 1: Айжана -->
+        <div class="border hairline-border bg-white p-5 sm:p-6 flex flex-col justify-between group hover:border-violet-brand/40 transition-colors shadow-xs">
+          <div>
+            <div class="flex justify-between items-center mb-2 pb-2 border-b hairline-border">
+              <div class="flex gap-1 text-yellow-brand">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+              </div>
+              <span class="font-mono text-[9px] uppercase tracking-wider text-violet-brand font-bold bg-violet-surface px-2 py-0.5">
+                2GIS • ПОДТВЕРЖДЁННЫЙ ВИЗИТ
+              </span>
+            </div>
+
+            <p class="font-heading font-semibold text-sm sm:text-base text-ink-900 leading-snug my-2.5">
+              «Спасибо Вам большое. Ребенок не умел ни читать, ни писать полный ноль. Сейчас у нас английский на отлично!!!»
+            </p>
+
+            <div class="p-2.5 bg-canvas-subtle border-l-2 border-violet-brand text-xs text-ink-700 my-2.5">
+              <span class="font-mono text-[10px] uppercase text-violet-brand font-bold block mb-0.5">Ответ студии:</span>
+              «Здравствуйте, Айжана! Спасибо Вам за отзыв!»
+            </div>
+          </div>
+
+          <div class="pt-3 border-t hairline-border flex justify-between items-center font-mono text-xs">
+            <div>
+              <span class="font-bold text-ink-900 text-xs">Айжана</span>
+              <span class="text-ink-500 text-[10px] ml-1.5">• Мама ученика</span>
+            </div>
+            <span class="text-ink-500 text-[10px]">2GIS Тюмень</span>
+          </div>
+        </div>
+
+        <!-- Review 2: Ольга -->
+        <div class="border hairline-border bg-white p-5 sm:p-6 flex flex-col justify-between group hover:border-violet-brand/40 transition-colors shadow-xs">
+          <div>
+            <div class="flex justify-between items-center mb-2 pb-2 border-b hairline-border">
+              <div class="flex gap-1 text-yellow-brand">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+              </div>
+              <span class="font-mono text-[9px] uppercase tracking-wider text-violet-brand font-bold bg-violet-surface px-2 py-0.5">
+                2GIS • 2 ГОДА ОБУЧЕНИЯ
+              </span>
+            </div>
+
+            <p class="font-heading font-semibold text-sm sm:text-base text-ink-900 leading-snug my-2.5">
+              «Ольга — прекрасный преподаватель! Сын полюбил английский язык. Подтянули занятия, уже у нас 5)) Занимаемся уже второй учебный год. Удобно, недалеко от дома на Зелинского. Сын стал многое понимать и уже говорит!»
+            </p>
+          </div>
+
+          <div class="pt-3 border-t hairline-border flex justify-between items-center font-mono text-xs">
+            <div>
+              <span class="font-bold text-ink-900 text-xs">Ольга</span>
+              <span class="text-ink-500 text-[10px] ml-1.5">• Зелинского 17</span>
+            </div>
+            <span class="text-ink-500 text-[10px]">2GIS Тюмень</span>
+          </div>
+        </div>
+
+        <!-- Review 3: Юлия Александровна -->
+        <div class="border hairline-border bg-white p-5 sm:p-6 flex flex-col justify-between group hover:border-violet-brand/40 transition-colors shadow-xs">
+          <div>
+            <div class="flex justify-between items-center mb-2 pb-2 border-b hairline-border">
+              <div class="flex gap-1 text-yellow-brand">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+              </div>
+              <span class="font-mono text-[9px] uppercase tracking-wider text-violet-brand font-bold bg-violet-surface px-2 py-0.5">
+                2GIS • ПОДТВЕРЖДЁННЫЙ ВИЗИТ
+              </span>
+            </div>
+
+            <p class="font-heading font-semibold text-sm sm:text-base text-ink-900 leading-snug my-2.5">
+              «Ольга Дмитриевна, огромное спасибо Вам за Ваш вклад и старания. Нам очень нравится!»
+            </p>
+
+            <div class="p-2.5 bg-canvas-subtle border-l-2 border-violet-brand text-xs text-ink-700 my-2.5">
+              <span class="font-mono text-[10px] uppercase text-violet-brand font-bold block mb-0.5">Ответ Ольги Дмитриевны:</span>
+              «Юлия Александровна, спасибо большое за высокую оценку! До встречи в сентябре ❤️»
+            </div>
+          </div>
+
+          <div class="pt-3 border-t hairline-border flex justify-between items-center font-mono text-xs">
+            <div>
+              <span class="font-bold text-ink-900 text-xs">Юлия Александровна</span>
+              <span class="text-ink-500 text-[10px] ml-1.5">• Мама школьника</span>
+            </div>
+            <span class="text-ink-500 text-[10px]">2GIS Тюмень</span>
+          </div>
+        </div>
+
+        <!-- Review 4: Мария -->
+        <div class="border hairline-border bg-white p-5 sm:p-6 flex flex-col justify-between group hover:border-violet-brand/40 transition-colors shadow-xs">
+          <div>
+            <div class="flex justify-between items-center mb-2 pb-2 border-b hairline-border">
+              <div class="flex gap-1 text-yellow-brand">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-brand"></i>
+              </div>
+              <span class="font-mono text-[9px] uppercase tracking-wider text-violet-brand font-bold bg-violet-surface px-2 py-0.5">
+                2GIS • РЕЗУЛЬТАТ ЗА ГОД
+              </span>
+            </div>
+
+            <p class="font-heading font-semibold text-sm sm:text-base text-ink-900 leading-snug my-2.5">
+              «Ребенок ходил на занятия к Ольге Дмитриевне с удовольствием а главное возвращался со знаниями. В конце уч года результат нас очень порадовал на все 100... советуем только нашу Ольгу 🥰»
+            </p>
+          </div>
+
+          <div class="pt-3 border-t hairline-border flex justify-between items-center font-mono text-xs">
+            <div>
+              <span class="font-bold text-ink-900 text-xs">Мария</span>
+              <span class="text-ink-500 text-[10px] ml-1.5">• Тюмень</span>
+            </div>
+            <span class="text-ink-500 text-[10px]">2GIS Тюмень</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Button Link to 2GIS Profile (No count, clean) -->
+      <div class="text-center">
+        <a 
+          href="https://2gis.ru/tyumen/firm/70000001045820413/tab/reviews" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="inline-flex items-center gap-2 px-6 py-3 border border-violet-brand text-violet-brand hover:bg-violet-brand hover:text-white font-mono text-xs uppercase tracking-widest transition-all duration-200"
+        >
+          <span>Смотреть все отзывы на 2GIS</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       06 / ФОРМА ЗАПИСИ + КОНТАКТЫ (ДВЕ АСИММЕТРИЧНЫЕ КОЛОНКИ)
+       ========================================================================= -->
+  <section id="contacts" class="py-24 sm:py-36 border-b hairline-border bg-canvas-base relative">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8">
+      
+      <div class="flex justify-between items-baseline mb-16 border-b hairline-border pb-4 font-mono text-xs uppercase tracking-widest text-ink-500">
+        <span>05 / ЗАПИСЬ И ЛОКАЦИЯ</span>
+        <span>СТУДИЯ НА ЗЕЛИНСКОГО, 17</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start" id="booking">
+        
+        <!-- Left: Wide Form Column (lg:col-span-7) -->
+        <div class="lg:col-span-7 border hairline-border bg-canvas-card p-8 sm:p-12 shadow-sm relative">
+          
+          <div class="mb-8">
+            <span class="font-mono text-[10px] uppercase tracking-widest text-violet-brand font-bold bg-violet-surface border hairline-border px-2.5 py-1 mb-3 inline-block">
+              НАБОР В ГРУППЫ 2026
+            </span>
+            <h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-ink-900 mb-3">
+              Запишитесь на обучение в студию
+            </h3>
+            <p class="font-sans text-base text-ink-700 leading-relaxed">
+              Оставьте заявку. Мы перезвоним, поможем подобрать подходящую по возрасту и уровню группу, а также согласуем удобное расписание занятий.
+            </p>
+          </div>
+
+          <!-- Error Message Banner -->
+          <div id="studioError" class="hidden mb-6 p-4 bg-rose-100 border border-rose-300 text-rose-900 font-mono text-xs"></div>
+
+          <!-- FORM WRAPPER -->
+          <div id="studioFormWrapper" class="transition-opacity duration-500">
+            <form id="studioBookingForm" onsubmit="submitStudioForm(event)" class="space-y-6">
+              
+              <!-- 1. HONEYPOT Anti-bot field (Strictly Hidden) -->
+              <input type="text" id="studioHoneypot" name="website" style="display:none !important;" tabindex="-1" autocomplete="off">
+
+              <!-- Parent Name -->
+              <div>
+                <label for="parentName" class="block font-mono text-[11px] uppercase tracking-widest text-ink-700 mb-2">
+                  Имя родителя <span class="text-rose-600">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="parentName" 
+                  placeholder="Например, Елена" 
+                  class="w-full px-4 py-3.5 bg-canvas-base border hairline-border text-ink-900 font-sans text-base focus:outline-none focus:border-violet-brand transition-colors"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+
+              <!-- Phone with Mask -->
+              <div>
+                <label for="parentPhone" class="block font-mono text-[11px] uppercase tracking-widest text-ink-700 mb-2">
+                  Номер телефона <span class="text-rose-600">*</span>
+                </label>
+                <input 
+                  type="tel" 
+                  id="parentPhone" 
+                  placeholder="+7 (___) ___-__-__" 
+                  class="w-full px-4 py-3.5 bg-canvas-base border hairline-border text-ink-900 font-mono text-base focus:outline-none focus:border-violet-brand transition-colors"
+                  autocomplete="tel"
+                  required
+                />
+                <span class="block font-mono text-[10px] text-ink-500 mt-1">
+                  Свяжемся с вами в течение часа в рабочее время
+                </span>
+              </div>
+
+              <!-- Child Grade Select -->
+              <div>
+                <label for="childGrade" class="block font-mono text-[11px] uppercase tracking-widest text-ink-700 mb-2">
+                  Класс ребёнка <span class="text-rose-600">*</span>
+                </label>
+                <div class="relative">
+                  <select 
+                    id="childGrade" 
+                    class="w-full px-4 py-3.5 bg-canvas-base border hairline-border text-ink-900 font-sans text-base focus:outline-none focus:border-violet-brand transition-colors appearance-none cursor-pointer"
+                    required
+                  >
+                    <option value="" disabled selected>Выберите класс обучения</option>
+                    <option value="1 класс (4 600 ₽/мес)">1 класс (базовый игровой старт)</option>
+                    <option value="2–4 классы (5 000 ₽/мес)">2–4 классы (чтение, базовая грамматика)</option>
+                    <option value="5–9 классы (5 200 ₽/мес)">5–9 классы (разговорный клуб, ОГЭ)</option>
+                  </select>
+                  <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500">
+                    <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Submit Button with Strict Validation & Double-click guard -->
+              <div class="pt-4">
+                <button 
+                  type="submit" 
+                  id="studioSubmitBtn" 
+                  disabled 
+                  class="w-full py-4 px-6 bg-violet-brand text-white font-mono text-xs uppercase tracking-widest transition-all duration-300 opacity-40 cursor-not-allowed flex items-center justify-center gap-3 shadow-md"
+                >
+                  <svg id="studioSpinner" class="hidden animate-spin h-4 w-4 text-yellow-brand" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                  </svg>
+                  <span id="studioBtnText">Забронировать место в группе</span>
+                  <i data-lucide="arrow-right" id="studioBtnIcon" class="w-4 h-4 text-yellow-brand"></i>
+                </button>
+              </div>
+
+              <div class="text-center font-mono text-[10px] text-ink-500">
+                Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+              </div>
+
+            </form>
+          </div>
+
+          <!-- SUCCESS SCREEN (Fade-in on completion) -->
+          <div id="studioSuccess" class="hidden opacity-0 transition-opacity duration-500 py-6 text-center font-mono">
+            <div class="w-16 h-16 rounded-full bg-violet-surface border border-violet-brand/30 text-violet-brand flex items-center justify-center mx-auto mb-6">
+              <i data-lucide="check" class="w-8 h-8"></i>
+            </div>
+
+            <div class="inline-block px-3 py-1 bg-violet-surface border hairline-border text-violet-brand text-[11px] uppercase tracking-widest font-bold mb-3">
+              МЕСТО ЗАБРОНИРОВАНО
+            </div>
+
+            <h4 class="font-heading font-extrabold text-2xl sm:text-3xl text-ink-900 mb-3">
+              Спасибо за заявку!
+            </h4>
+
+            <p class="font-sans text-base text-ink-700 max-w-md mx-auto leading-relaxed mb-8">
+              Основатель студии перезвонит вам с номера <strong>+7 (922) 478-77-11</strong> для согласования расписания и включения ребёнка в группу.
+            </p>
+
+            <div class="bg-canvas-subtle border hairline-border p-6 text-left max-w-md mx-auto mb-8 font-mono text-xs space-y-2.5">
+              <div class="text-[10px] text-ink-500 uppercase tracking-widest border-b hairline-border pb-2 mb-2">
+                ДЕТАЛИ ЗАПИСИ
+              </div>
+              <div class="flex justify-between">
+                <span class="text-ink-500">Родитель:</span>
+                <span id="resParentName" class="font-bold text-ink-900">—</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-ink-500">Телефон:</span>
+                <span id="resParentPhone" class="font-bold text-ink-900">—</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-ink-500">Программа:</span>
+                <span id="resChildGrade" class="font-bold text-violet-brand">—</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-ink-500">Локация:</span>
+                <span class="font-bold text-ink-900">Тюмень, Зелинского 17</span>
+              </div>
+            </div>
+
+            <button 
+              type="button" 
+              onclick="resetStudioForm()" 
+              class="px-6 py-2.5 bg-canvas-card hover:bg-canvas-subtle border hairline-border font-mono text-xs uppercase tracking-widest text-ink-900 transition-colors"
+            >
+              Отправить ещё одну заявку
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right: Narrow Contacts Column (lg:col-span-5) -->
+        <div class="lg:col-span-5 space-y-8">
+          
+          <div class="border hairline-border bg-canvas-card p-8 sm:p-10 shadow-sm">
+            <h3 class="font-heading font-extrabold text-2xl text-ink-900 mb-6">
+              Ждём вас в студии
+            </h3>
+
+            <div class="space-y-6 font-mono text-xs">
+              
+              <!-- Address -->
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-none bg-violet-surface border hairline-border flex items-center justify-center shrink-0 mt-0.5 text-violet-brand">
+                  <i data-lucide="map-pin" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <div class="text-[10px] text-ink-500 uppercase tracking-widest mb-1">АДРЕС</div>
+                  <div class="font-heading font-bold text-sm text-ink-900 leading-snug">
+                    г. Тюмень, ул. Николая Зелинского, 17, 1 этаж
+                  </div>
+                  <div class="text-ink-500 text-[11px] mt-0.5">Восточный округ • Тюменский 3-й м-н</div>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-none bg-violet-surface border hairline-border flex items-center justify-center shrink-0 mt-0.5 text-violet-brand">
+                  <i data-lucide="phone" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <div class="text-[10px] text-ink-500 uppercase tracking-widest mb-1">ТЕЛЕФОН</div>
+                  <a href="tel:+79224787711" class="font-heading font-extrabold text-base text-violet-brand hover:underline">
+                    +7 (922) 478-77-11
+                  </a>
+                </div>
+              </div>
+
+              <!-- Hours: Exact 2GIS Schedule -->
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-none bg-violet-surface border hairline-border flex items-center justify-center shrink-0 mt-0.5 text-violet-brand">
+                  <i data-lucide="clock" class="w-4 h-4"></i>
+                </div>
+                <div class="w-full">
+                  <div class="text-[10px] text-ink-500 uppercase tracking-widest mb-1.5 flex items-center justify-between">
+                    <span>ЧАСЫ РАБОТЫ (ПО 2GIS)</span>
+                    <span class="text-violet-brand bg-violet-surface text-[9px] px-1.5 py-0.5 font-bold">АКТУАЛЬНЫЙ ГРАФИК</span>
+                  </div>
+                  <div class="space-y-1 font-mono text-[11px]">
+                    <div class="flex justify-between text-ink-900 font-semibold">
+                      <span>Пн, Вт:</span>
+                      <span>09:00 – 18:00 <span class="text-ink-500 font-normal">(перерыв 12:00–14:30)</span></span>
+                    </div>
+                    <div class="flex justify-between text-ink-500">
+                      <span>Среда:</span>
+                      <span class="text-rose-600 font-semibold">Выходной</span>
+                    </div>
+                    <div class="flex justify-between text-ink-900 font-semibold">
+                      <span>Чт, Пт:</span>
+                      <span>09:00 – 18:00 <span class="text-ink-500 font-normal">(перерыв 12:00–14:30)</span></span>
+                    </div>
+                    <div class="flex justify-between text-ink-500">
+                      <span>Сб, Вс:</span>
+                      <span class="text-rose-600 font-semibold">Выходной</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="pt-4 border-t hairline-border flex items-center gap-3">
+                <a 
+                  href="https://vk.com/okayenglish_tmn" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="flex-1 py-3 px-4 bg-canvas-base hover:bg-canvas-subtle border hairline-border text-ink-900 font-mono text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i data-lucide="share-2" class="w-3.5 h-3.5 text-violet-brand"></i>
+                  <span>ВКонтакте</span>
+                </a>
+
+                <a 
+                  href="https://2gis.ru/tyumen/firm/70000001045820413" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="flex-1 py-3 px-4 bg-violet-brand hover:bg-violet-dark text-white font-mono text-xs uppercase tracking-widest flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i data-lucide="map" class="w-3.5 h-3.5 text-yellow-brand"></i>
+                  <span>2GIS</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Embedded Yandex Map (Styled with subtle grayscale filter to integrate into editorial aesthetic) -->
+          <div class="border hairline-border bg-canvas-card p-2 shadow-sm">
+            <div class="relative w-full h-[250px] overflow-hidden">
+              <iframe 
+                src="https://yandex.ru/map-widget/v1/?ll=65.559729%2C57.113973&z=16&pt=65.559729%2C57.113973,pm2gnm" 
+                width="100%" 
+                height="100%" 
+                frameborder="0" 
+                allowfullscreen="true" 
+                class="w-full h-full filter grayscale contrast-90 opacity-90 hover:grayscale-0 transition-all duration-500"
+                loading="lazy"
+                title="Карта проезда к студии OkayEnglish на ул. Николая Зелинского, 17"
+              ></iframe>
+            </div>
+            <div class="p-2.5 font-mono text-[10px] text-ink-500 flex justify-between bg-canvas-subtle border-t hairline-border">
+              <span>КООРДИНАТЫ: 57.113973, 65.559729</span>
+              <span class="text-violet-brand font-bold">1 ЭТАЖ • ВХОД С УЛИЦЫ</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="border-t hairline-border py-16 bg-canvas-card font-mono text-xs text-ink-700">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b hairline-border">
+        
+        <!-- Left: Logo & Studio Info -->
+        <div class="md:col-span-5">
+          <a href="#" class="font-heading font-extrabold text-3xl tracking-tight text-ink-900 inline-block mb-3">
+            OkayEnglish<span class="text-magenta-neon font-extrabold">.</span>
+          </a>
+          <p class="font-sans text-sm text-ink-700 max-w-sm leading-relaxed mb-4">
+            Студия английского языка для школьников 1-9 классов в Тюмени. Разговорный акцент, мини-группы до 8 человек и реальная любовь к языку.
+          </p>
+          <div class="text-[11px] text-ink-500 space-y-1">
+            <div>г. Тюмень, ул. Николая Зелинского, 17, 1 этаж</div>
+            <div>Телефон: <a href="tel:+79224787711" class="text-ink-900 font-bold hover:underline">+7 (922) 478-77-11</a></div>
+          </div>
+        </div>
+
+        <!-- Middle: Nav Links -->
+        <div class="md:col-span-3">
+          <div class="text-[10px] uppercase tracking-widest text-ink-500 font-bold mb-3">
+            РАЗДЕЛЫ САЙТА
+          </div>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#about" class="hover:text-violet-brand transition-colors">О студии и методике</a></li>
+            <li><a href="#atmosphere" class="hover:text-violet-brand transition-colors">Кабинет на Зелинского, 17</a></li>
+            <li><a href="#pricing" class="hover:text-violet-brand transition-colors">Цены на обучение</a></li>
+            <li><a href="#reviews" class="hover:text-violet-brand transition-colors">Отзывы родителей 2GIS</a></li>
+            <li><a href="#contacts" class="hover:text-violet-brand transition-colors">Контакты и карта</a></li>
+          </ul>
+        </div>
+
+        <!-- Right: Links to Services & Socials -->
+        <div class="md:col-span-4">
+          <div class="text-[10px] uppercase tracking-widest text-ink-500 font-bold mb-3">
+            ПРЯМАЯ СВЯЗЬ
+          </div>
+          <p class="font-sans text-xs text-ink-700 mb-4 leading-relaxed">
+            Отвечаем на звонки в рабочие часы студии: Пн–Вт, Чт–Пт 09:00–18:00 (перерыв 12:00–14:30). Ср, Сб, Вс — выходные дни.
+          </p>
+          <div class="flex flex-wrap gap-2.5">
+            <a href="https://vk.com/okayenglish_tmn" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-canvas-base hover:bg-canvas-subtle border hairline-border text-ink-900 text-xs flex items-center gap-1.5 transition-colors">
+              <i data-lucide="share-2" class="w-3.5 h-3.5 text-violet-brand"></i>
+              <span>VKontakte</span>
+            </a>
+            <a href="https://2gis.ru/tyumen/firm/70000001045820413" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-canvas-base hover:bg-canvas-subtle border hairline-border text-ink-900 text-xs flex items-center gap-1.5 transition-colors">
+              <i data-lucide="star" class="w-3.5 h-3.5 text-yellow-brand"></i>
+              <span>2GIS 5.0</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Legal Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[11px] text-ink-500">
+        <div>
+          © 2026 OkayEnglish (Студия английского языка). Все права защищены.
+        </div>
+        <div class="flex gap-6">
+          <a href="#" class="hover:text-ink-900 transition-colors underline underline-offset-4">Политика конфиденциальности</a>
+          <a href="#" class="hover:text-ink-900 transition-colors underline underline-offset-4">Договор-оферта</a>
+        </div>
+        <div class="flex items-center gap-1.5 text-ink-500">
+          <span>Сделано с любовью к английскому в Тюмени</span>
+          <span class="text-magenta-neon font-bold">♥</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       SCRIPTS: LUCIDE + THEME TOGGLE + MOBILE DRAWER + STICKY NAVBAR + FORM MASK & ANTI-BOT
+       ========================================================================= -->
+  <script>
+    // 1. Theme Management (Light / Dark)
+    function updateThemeIcons(isDark) {
+      if (typeof isDark !== 'boolean') {
+        isDark = document.documentElement.classList.contains('dark');
+      }
+      const slots = document.querySelectorAll('.theme-icon-slot');
+      slots.forEach(slot => {
+        slot.innerHTML = isDark 
+          ? '<i data-lucide="sun" class="w-4 h-4 text-yellow-brand"></i>'
+          : '<i data-lucide="moon" class="w-4 h-4 text-violet-brand"></i>';
+      });
+      const mobileLabel = document.getElementById('mobileThemeLabel');
+      if (mobileLabel) {
+        mobileLabel.textContent = isDark ? 'Светлая тема' : 'Тёмная тема';
+      }
+      lucide.createIcons();
+    }
+
+    function toggleTheme() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      updateThemeIcons(isDark);
+    }
+
+    // 2. Mobile Drawer Navigation
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const mobileMenuIcon = document.getElementById('mobileMenuIcon');
+
+    function toggleMobileMenu() {
+      if (!mobileDrawer) return;
+      const isHidden = mobileDrawer.classList.contains('hidden');
+      if (isHidden) {
+        mobileDrawer.classList.remove('hidden');
+        void mobileDrawer.offsetWidth; // trigger reflow
+        mobileDrawer.classList.remove('opacity-0', '-translate-y-4');
+        mobileDrawer.classList.add('opacity-100', 'translate-y-0');
+        if (mobileMenuIcon) {
+          mobileMenuIcon.setAttribute('data-lucide', 'x');
+        }
+      } else {
+        closeMobileMenu();
+      }
+      lucide.createIcons();
+    }
+
+    function closeMobileMenu() {
+      if (!mobileDrawer || mobileDrawer.classList.contains('hidden')) return;
+      mobileDrawer.classList.remove('opacity-100', 'translate-y-0');
+      mobileDrawer.classList.add('opacity-0', '-translate-y-4');
+      if (mobileMenuIcon) {
+        mobileMenuIcon.setAttribute('data-lucide', 'menu');
+      }
+      setTimeout(() => {
+        mobileDrawer.classList.add('hidden');
+      }, 250);
+      lucide.createIcons();
+    }
+
+    // 3. Initialize Lucide Icons & Theme
+    lucide.createIcons();
+    updateThemeIcons();
+
+    // 4. Sticky Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        navbar.classList.add('bg-canvas-base/95', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'hairline-border', 'py-3.5');
+        navbar.classList.remove('py-5');
+      } else {
+        navbar.classList.remove('bg-canvas-base/95', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'hairline-border', 'py-3.5');
+        navbar.classList.add('py-5');
+      }
+    });
+
+    // 5. Form Mask, Validation, Honeypot & Rate Limit
+    const pPhone = document.getElementById('parentPhone');
+    const pName = document.getElementById('parentName');
+    const cGrade = document.getElementById('childGrade');
+    const sSubmit = document.getElementById('studioSubmitBtn');
+
+    function formatStudioPhone(val) {
+      let digits = val.replace(/\D/g, '');
+      if (!digits) return '';
+      if (digits[0] === '7' || digits[0] === '8') digits = digits.substring(1);
+      digits = digits.substring(0, 10);
+
+      let res = '+7 (';
+      if (digits.length > 0) res += digits.substring(0, 3);
+      if (digits.length >= 3) res += ') ' + digits.substring(3, 6);
+      if (digits.length >= 6) res += '-' + digits.substring(6, 8);
+      if (digits.length >= 8) res += '-' + digits.substring(8, 10);
+      return res;
+    }
+
+    pPhone.addEventListener('input', (e) => {
+      e.target.value = formatStudioPhone(e.target.value);
+      validateStudioForm();
+    });
+
+    pPhone.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace' && e.target.value.length <= 4) {
+        e.target.value = '';
+        validateStudioForm();
+      }
+    });
+
+    pName.addEventListener('input', validateStudioForm);
+    cGrade.addEventListener('change', validateStudioForm);
+
+    function selectGradeProgram(val) {
+      if (cGrade) {
+        cGrade.value = val;
+        validateStudioForm();
+      }
+    }
+
+    function validateStudioForm() {
+      const isNameOk = pName.value.trim().length >= 2;
+      const isPhoneOk = pPhone.value.replace(/\D/g, '').length === 11;
+      const isGradeOk = cGrade.value !== '';
+
+      if (isNameOk && isPhoneOk && isGradeOk) {
+        sSubmit.disabled = false;
+        sSubmit.classList.remove('opacity-40', 'cursor-not-allowed');
+        sSubmit.classList.add('opacity-100', 'cursor-pointer', 'hover:bg-violet-dark');
+      } else {
+        sSubmit.disabled = true;
+        sSubmit.classList.add('opacity-40', 'cursor-not-allowed');
+        sSubmit.classList.remove('opacity-100', 'cursor-pointer', 'hover:bg-violet-dark');
+      }
+    }
+
+    let isStudioSubmitting = false;
+
+    function submitStudioForm(e) {
+      e.preventDefault();
+      if (isStudioSubmitting) return;
+
+      const hp = document.getElementById('studioHoneypot');
+      const errBox = document.getElementById('studioError');
+
+      // 1. HONEYPOT CHECK
+      if (hp && hp.value.trim() !== '') {
+        errBox.innerText = 'Спам обнаружен';
+        errBox.classList.remove('hidden');
+        return;
+      }
+
+      // 2. RATE LIMIT (60 seconds)
+      const last = localStorage.getItem('okay_studio_booking_timestamp');
+      const now = Date.now();
+      if (last && (now - parseInt(last, 10) < 60000)) {
+        const sec = Math.ceil((60000 - (now - parseInt(last, 10))) / 1000);
+        errBox.innerText = `Подождите ${sec} сек. перед повторной отправкой`;
+        errBox.classList.remove('hidden');
+        return;
+      }
+      errBox.classList.add('hidden');
+
+      // 3. DOUBLE-CLICK GUARD & SPINNER
+      isStudioSubmitting = true;
+      sSubmit.disabled = true;
+      document.getElementById('studioBtnText').innerText = 'Отправка...';
+      document.getElementById('studioSpinner').classList.remove('hidden');
+      document.getElementById('studioBtnIcon').classList.add('hidden');
+
+      const nameVal = pName.value.trim();
+      const phoneVal = pPhone.value.trim();
+      const gradeVal = cGrade.value;
+
+      // 4. SIMULATION DELAY (3 seconds)
+      setTimeout(() => {
+        localStorage.setItem('okay_studio_booking_timestamp', Date.now().toString());
+
+        document.getElementById('resParentName').innerText = nameVal;
+        document.getElementById('resParentPhone').innerText = phoneVal;
+        document.getElementById('resChildGrade').innerText = gradeVal;
+
+        const formWrap = document.getElementById('studioFormWrapper');
+        const successBox = document.getElementById('studioSuccess');
+
+        formWrap.classList.add('opacity-0');
+        setTimeout(() => {
+          formWrap.classList.add('hidden');
+          successBox.classList.remove('hidden');
+          void successBox.offsetWidth;
+          successBox.classList.remove('opacity-0');
+          successBox.classList.add('opacity-100');
+          lucide.createIcons();
+          isStudioSubmitting = false;
+        }, 500);
+      }, 3000);
+    }
+
+    function resetStudioForm() {
+      document.getElementById('studioBookingForm').reset();
+      document.getElementById('studioBtnText').innerText = 'Записаться на обучение';
+      document.getElementById('studioSpinner').classList.add('hidden');
+      document.getElementById('studioBtnIcon').classList.remove('hidden');
+      validateStudioForm();
+
+      const successBox = document.getElementById('studioSuccess');
+      const formWrap = document.getElementById('studioFormWrapper');
+
+      successBox.classList.add('opacity-0');
+      setTimeout(() => {
+        successBox.classList.add('hidden');
+        formWrap.classList.remove('hidden');
+        void formWrap.offsetWidth;
+        formWrap.classList.remove('opacity-0');
+      }, 500);
+    }
+  </script>
+
+</body>
+</html>
